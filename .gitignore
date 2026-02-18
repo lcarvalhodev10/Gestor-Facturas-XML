@@ -1,0 +1,21 @@
+# Extensiones y configuración de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Dependencias (si llegas a usar Node.js/NPM en el futuro)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Archivos del Sistema Operativo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Archivos temporales o de logs
+*.log
+.temp/
+.tmp/
+
+# Configuración de variables de entorno (¡Muy importante si usas contraseñas!)
+.env

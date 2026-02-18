@@ -1,0 +1,20 @@
+<!ELEMENT factura (emisor, cliente, lineas, total)>
+<!ATTLIST factura numero ID #REQUIRED fecha CDATA #REQUIRED>
+
+<!ELEMENT emisor (nombre, nif, direccionPostal)>
+<!ELEMENT cliente (nombre, nif, direccionPostal)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT direccionPostal (#PCDATA)>
+
+
+<!ELEMENT lineas (linea+)>
+<!ELEMENT linea (descripcion, cantidad, precioUnitario, subtotal)>
+<!ATTLIST linea codigo ID #REQUIRED>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precioUnitario (#PCDATA)>
+<!ELEMENT subtotal (#PCDATA)>
+
+<!ELEMENT total (#PCDATA)>  

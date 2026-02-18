@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura numero="f001" fecha="17/02/2026">
+    <emisor>
+        <nombre>Pepito Pérez</nombre>
+        <nif>12345678A</nif>
+        <direccionPostal>Calle de la gaviota muerta número 666, San Juan de los Diablos, 45679, Santander</direccionPostal>
+    </emisor>
+    <cliente>
+        <nombre>Ariana Grande</nombre>
+        <nif>54645678A</nif>
+        <direccionPostal>Calle del Perro Rabioso, 666, San Juan de los Diablos, 45679, Santander</direccionPostal>
+    </cliente>
+    <lineas>
+        <linea codigo="m23">
+            <descripcion></descripcion>
+            <cantidad></cantidad>
+            <precioUnitario></precioUnitario>
+            <subtotal></subtotal>
+        </linea>
+        <linea codigo="i21">
+            <descripcion></descripcion>
+            <cantidad></cantidad>
+            <precioUnitario></precioUnitario>
+            <subtotal></subtotal>
+        </linea>
+        
+    </lineas>
+    <total></total>
+</factura>
