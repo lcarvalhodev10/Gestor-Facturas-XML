@@ -12,17 +12,18 @@
         <nif>54645678A</nif>
         <direccionPostal>Calle del Perro Rabioso, 666, San Juan de los Diablos, 45679, Santander</direccionPostal>
     </cliente>
+    
     <lineas>
         <linea codigo="m23">
-            <descripcion></descripcion>
-            <cantidad></cantidad>
-            <precioUnitario></precioUnitario>
-            <subtotal></subtotal>
+            <descripcion>Pikachu</descripcion>
+            <cantidad>4</cantidad>
+            <precioUnitario>35</precioUnitario>
+            <subtotal>140</subtotal>
         </linea>
         <linea codigo="i21">
-            <descripcion></descripcion>
-            <cantidad></cantidad>
-            <precioUnitario></precioUnitario>
+            <descripcion>Litten</descripcion>
+            <cantidad>2</cantidad>
+            <precioUnitario>55</precioUnitario>
             <subtotal></subtotal>
         </linea>
         

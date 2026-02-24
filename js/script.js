@@ -8,7 +8,6 @@ async function cargarFactura() {
     const xml = parser.parseFromString(textoXML, 'application/xml'); 
     const emisor = xml.querySelector('emisor');
     const cliente = xml.querySelector('cliente');  
-    console.log(emisor);
      
     const sec_emisor = document.createElement('section');
     const sec_cliente = document.createElement('section'); 
@@ -20,6 +19,14 @@ async function cargarFactura() {
     <p>${cliente.children[1].textContent}</p><p>${cliente.children[2].textContent}</p>`
 
     cabecera.append(sec_emisor, sec_cliente); 
+
+    const lineas = xml.getElementsByTagName('linea');
+
+    const sec_lineas = document.createElement('tr');
+    
+    console.log(lineas); 
+
+
 }
 
 
