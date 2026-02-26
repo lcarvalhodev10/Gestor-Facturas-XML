@@ -1,5 +1,6 @@
 const cabecera = document.querySelector('header'); 
 const main = document.querySelector('main');
+const datos = document.getElementById('datos');
 
 async function cargarFactura() {
     const respuesta = await fetch('facturas/factura.xml'); 
@@ -23,12 +24,25 @@ async function cargarFactura() {
     const lineas = xml.getElementsByTagName('linea');
 
     const sec_lineas = document.createElement('tr');
+
+    for(let linea of lineas){
+        datos.innerHTML += `
+        <tr>
+            <td>${linea.children[0].textContent}</td>
+            <td>${linea.children[1].textContent}</td>
+            <td>${linea.children[2].textContent}</td>
+            <td>${linea.children[3].textContent}</td>
+        </tr>
+        `
+    }
     
     console.log(lineas); 
 
-
 }
 
-
-
 cargarFactura()
+
+document.addEventListener('click', function(){
+    window.print(); 
+});
+
