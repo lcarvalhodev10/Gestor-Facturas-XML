@@ -3,30 +3,40 @@
 
 <factura numero="f001" fecha="17/02/2026">
     <emisor>
-        <nombre>Pepito Pérez</nombre>
-        <nif>12345678A</nif>
-        <direccionPostal>Calle de la gaviota muerta número 666, San Juan de los Diablos, 45679, Santander</direccionPostal>
+        <nombre>Carlos Martínez López</nombre>
+        <nif>28745619B</nif>
+        <direccionPostal>Calle Mayor, 14, 2ºA, 41001, Sevilla</direccionPostal>
     </emisor>
     <cliente>
-        <nombre>Ariana Grande</nombre>
-        <nif>54645678A</nif>
-        <direccionPostal>Calle del Perro Rabioso, 666, San Juan de los Diablos, 45679, Santander</direccionPostal>
+        <nombre>Tecnosur Distribuciones S.L.</nombre>
+        <nif>B91234567</nif>
+        <direccionPostal>Avenida de Andalucía, 83, 41700, Dos Hermanas, Sevilla</direccionPostal>
     </cliente>
-    
     <lineas>
-        <linea codigo="m23">
-            <descripcion>Pikachu</descripcion>
-            <cantidad>4</cantidad>
-            <precioUnitario>35</precioUnitario>
-            <subtotal>140</subtotal>
+        <linea codigo="A101">
+            <descripcion>Teclado mecánico USB retroiluminado</descripcion>
+            <cantidad>3</cantidad>
+            <precioUnitario>49.99</precioUnitario>
+            <subtotal>149.97</subtotal>
         </linea>
-        <linea codigo="i21">
-            <descripcion>Litten</descripcion>
+        <linea codigo="B204">
+            <descripcion>Monitor LED 24" Full HD</descripcion>
             <cantidad>2</cantidad>
-            <precioUnitario>55</precioUnitario>
-            <subtotal>110</subtotal>
+            <precioUnitario>189.00</precioUnitario>
+            <subtotal>378.00</subtotal>
         </linea>
-        
+        <linea codigo="C318">
+            <descripcion>Ratón inalámbrico ergonómico</descripcion>
+            <cantidad>5</cantidad>
+            <precioUnitario>24.50</precioUnitario>
+            <subtotal>122.50</subtotal>
+        </linea>
+        <linea codigo="D422">
+            <descripcion>Cable HDMI 2.0 2 metros</descripcion>
+            <cantidad>10</cantidad>
+            <precioUnitario>8.99</precioUnitario>
+            <subtotal>89.90</subtotal>
+        </linea>
     </lineas>
-    <total></total>
+    <total>500</total>
 </factura>
